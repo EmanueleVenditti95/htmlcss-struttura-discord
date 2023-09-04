@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #D3A01F ;
+}
+
+.container.bg-nav{
+    padding: 20px;
+    background-color: #A3CCD9;
+}
+
+.col-3 {
+    flex-basis: calc(100% /4);
+    border: 2px dashed black;
+    padding: 5px;
+}
+
+.col-6 {
+    flex-basis: calc(100% /2);
+    border: 2px dashed black;
+    padding: 5px;
+}
