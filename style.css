@@ -8,6 +8,10 @@
     min-height: 300px;
 }
 
+.debug-2{
+    min-height: 600px;
+}
+
 body{
     display:flex;
     flex-direction: column;
@@ -77,5 +81,9 @@ body{
 
 .bg-grey{
     background-color: #D3D3D3;
+}
+
+.bg-green{
+    background-color: #228B22;
 }
 
