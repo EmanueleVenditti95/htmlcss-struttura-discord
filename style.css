@@ -15,14 +15,18 @@ body{
 
 .row{
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 900px;
+    display: flex;
 }
 
 .row.yellow {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #D3A01F ;    
+}
+
+.border {
+    border: 2px dashed black;
 }
 
 .container {
@@ -36,26 +40,37 @@ body{
 
 .col-3 {
     flex-basis: calc(100% /4);
-    border: 2px dashed black;
     padding: 5px;
 }
 
 .col-6 {
     flex-basis: calc(100% /2);
-    border: 2px dashed black;
     padding: 5px;
 }
 
-.container.bg-blue{
+.bg-blue{
     background-color: #00008B;
 }
 
-.row.pink {
-    max-width: 800px;
-    background-color:#EE82EE ;
-    border: 2px dashed black;
+.row.bg-pink {
+    max-width: 700px;
+    background-color:#EE82EE;
 }
 
 .col-100 {
-    flex-basis: 100%;
+    flex-basis: 100%;    
+}
+
+.col-5{
+    flex-basis: calc((100% /12)*5);
+    background-color: #FFC0CB;
+}
+
+.col-7 {
+    flex-basis: calc((100% /12)*7);
+    background-color: #1E90FF;
+}
+
+.bg-white{
+    background-color: white;
 }
