@@ -81,6 +81,10 @@ body{
     background-color: #1E90FF;
 }
 
+.reverse {
+    flex-direction: row-reverse ;
+}
+
 .bg-white{
     background-color: white;
 }
